@@ -1,0 +1,37 @@
+.tag {
+    background: #3273dc;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin: 0 28px 0 0;
+	text-decoration: none;
+	color: #fff !important;
+	float: left
+}
+
+.tag:before {
+    background: #fff;
+    width: 4px;
+    height: 4px;
+    content: "";
+    display: inline-block;
+    border-radius: 20px;
+    margin: 1px 7px 0 0;
+}
+.tag:not(body){
+	background-color: #3273dc
+}
+
+.tag:after {
+    display: inline-block;
+    border: 12px solid;
+    border-color: transparent transparent transparent #3273dc;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: -23px;
+    top: 0;
+    content: "";
+}
